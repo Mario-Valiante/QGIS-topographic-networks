@@ -1,0 +1,37 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Topographic Networks
+qgisMinimumVersion=2.0
+description=Creation and analysis of topographic (surface) networks.
+version=0.1
+author=Zoran Čučković
+email=cuckovic.zoran@gmail.com
+about=Terrain can be represented as a collection of objects - terrain features such as valleys, ridges, hills etc. One possible approach to arrive at such a model is modelling relationships between elements in a terrain model, most commonly pixels in an elevation model. Here, pixels are connected according to their height difference. Such a network, in its simplest form identical to the one used for watershed modelling, can then be analysed for modeling terrain ontologies...   
+
+# End of mandatory metadata
+
+# Optional items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=raster
+
+homepage=http://zoran-cuckovic.from.hr/landscape-analysis/topographic-networks/
+tracker=https://github.com/zoran-cuckovic/QGIS-topographic-networks/issues
+repository=https://github.com/zoran-cuckovic/QGIS-topographic-networks
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
