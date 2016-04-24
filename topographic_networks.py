@@ -28,7 +28,7 @@ from PyQt4.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
 from PyQt4.QtGui import QAction, QIcon, QMessageBox
 from qgis.core import *
 # Initialize Qt resources from file resources.py
-import resources_rc
+#import resources_rc
 # Import the code for the dialog
 from topographic_networks_dialog import TopographicNetworksDialog
 import os.path
